@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ПУСТАЯ КНОПКА -->
+<shape android:shape="rectangle"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="50dp" />
+
+    <stroke android:width="3dp"
+        android:color="@color/white" />
+
+    <gradient android:angle="-90"
+        android:startColor="#00000000"
+        android:endColor="#00000000"  />
+</shape>
+
+    <!-- android:background="@drawable/rounded_rectangle" -->
+
+    <!--
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="56dp"
+    android:textColor="@color/colorAccent"
+    android:textSize="17sp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:focusable="true"
+    android:textAllCaps="false"
+    android:background="@drawable/rounded_btn"
+    android:text="View Reports"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+    -->
